@@ -67,15 +67,19 @@
 
     <div id="about">
         <div class="container">
-            <div class="row">
+            <div class="row" id = about-row>
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading" id="about-me">About Me</h2>
+                    <img src="images/TAPic.jpg" id="profile-pic">
                 </div>
                 <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                    <p id="description">
+                        Hi there! My name is Kevin Wang, and I am a fourth-year Computer Science student at the University of Washington.
+                        I am passionate about using technology to solve complex problems and help people. Through my school work and internship
+                        experiences, I have gained valuable experience as a Software Developer and am eager to learn even more.
+                        I have also worked on personal projects that showcase my programming and problem-solving skills, please check them out below!
+                        When I'm not coding, I enjoy playing basketball (particularly the NBA), lifting weights, going outdoors, and playing video games.
+                        I'm excited to share more about my experiences and skills with you!
                     </p>
                 </div>
             </div>
@@ -90,7 +94,9 @@
                 <h3>Amazon.com</h3>
                 <h4>Software Development Engineer Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    As an intern at Amazon on the Kindle Content Delivery Services team, I was responsible for streamlining the operational workflow and enhancing the security of resources.
+                    I researched and implemented an automation solution for the URL signing process using AWS Cloud Development Kit, AWS Secrets Manager and AWS Lambda.
+                    As a result of this implementation, the URL signing process was completely automated, saving an estimated six developer hours every 90 days. This automation also increased the overall security of the resources.
                 </p>
             </div>
 
@@ -98,15 +104,21 @@
                 <h3>Dow Jones & Company</h3>
                 <h4>Software Engineer Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                    As an intern at Dow Jones & Company on the Factiva content management team, I was tasked with creating 
+                    an application to organize all of the news stories received by Factiva and give the team a simple way 
+                    to search and download the original news files. So I built an application that utilized AWS S3 to store 
+                    the over 100,000 news stories per day and a web UI using ASP.NET that gave the team the ability to filter
+                    through the files using various metadata. As a result of my work, the team now has a reliable application
+                    that they can use to find and interact with specific news files, improving the overall workflow.
             </div>
 
             <div data-date="January 2023 – March 2023">
                 <h3>University of Washington</h3>
                 <h4>Teaching Assistant</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    Served as a Teaching Assistant for CSE 332 - Data Structures and Parallelism. Fostered student learning of data structures, algorithms
+                    and parallelism. Faciliated mastery of 200+ students through direct interaction with in person office hours, small class sections, and extra
+                    review sessions. Developed and graded student assesment material through section content and exams.
                 </p>
             </div>
         </div>
@@ -120,7 +132,11 @@
             <span class="education-date">Sept 2019 - June 2023</span>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                Relevant coursework (through Winter 2023): Data Structures and Parallelism, Software Design 
+                and Implementation, Introduction to Algorithms, Systems Programming, Database System 
+                Internals, Computer Security, Data Visualization, Hardware/Software Interface, Introduction 
+                to Artificial Intelligence, Introduction to Data Management, Foundations of Computing I &,
+                Introduction to Human Computer Interaction, Interactions Programming
             </p>
         </div>
         <!-- End .education-block -->
@@ -133,15 +149,17 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/campus-paths.JPG" />
+                        <img src="images/campuspaths.JPG" class="project-images"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Campus Paths</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Have trouble navigating between your classes? Don't worry, Campus Paths finds the shortest paths between
+                            any two buildings on the University of Washington - Seattle campus and draws it out for you! This web application
+                            utilizes Dijkstra's algorithm to find the shortest paths, Java and Spark for the back-end, and React for the front-end UI. 
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/kwang03/CampusPaths">View Repo</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -149,15 +167,35 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/tictactoe.JPG" class="project-images" id="tictactoe-image"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Tic Tac Toe Bot</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Ever want to play Tic Tac Toe against someone and never be able to win? This Tic Tac Toe Bot always makes the optimal
+                            move at each turn making it impossible for you to win! This python application uses the Mini-Max Algorithm for move selection
+                            and pygame for the game display.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/kwang03/TicTacToe-AI">View Repo</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/studyBuddy.png" class="project-images" id="studybuddy-image"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Study Buddy</h3>
+                        <p>
+                            Do you have trouble staying focused while you study or have trouble finding a place to study in the first place? This android
+                            app uses the Pomodoro studying technique to help you stay focused with a specialized study timer and lets you scan your environment
+                            to help you find your ideal study environment. Built using the Android SDK using Java.
+                        </p>
+                        <a href="https://github.com/kwang03/StudyBuddy">View Repo</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
